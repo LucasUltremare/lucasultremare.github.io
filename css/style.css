@@ -640,7 +640,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #services .box .icon i:before {
   background: #0c2e8a;
-  background: linear-gradient(45deg, #50d8af 0%, #a3ebd5 100%);
+  background: linear-gradient(45deg, #a3ebd5 0%,rgb(0, 195, 255) 100%);
   background-clip: border-box;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -1105,7 +1105,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     font-size: 34px;
   }
 
-  #header #logo img {
+  #header #logo-img {
     max-height: 40px;
   }
 
