@@ -251,9 +251,10 @@ h6 {
   z-index: 8;
 }
 
+background-color: rgba(255, 255, 255, 0.7); - fundo branco do tio hunti
+
 #intro #intro-carousel::before {
   content: '';
-  background-color: rgba(255, 255, 255, 0.7);
   position: absolute;
   height: 100%;
   width: 100%;
