@@ -617,6 +617,19 @@ body.mobile-nav-active #mobile-nav-toggle {
   float: left;
 }
 
+.tiktoklogo {
+  font-size: 100px;
+  position: relative;
+  color: #00fff8;
+}
+.tiktoklogo i:last-child {
+  mix-blend-mode: multiply;
+  color: #ff0010;
+  position: absolute;
+  left: 5px;
+  top: 7px;
+}
+
 #services .box .icon i {
   color: #444;
   font-size: 64px;
