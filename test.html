@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table{
+            /*Set the merge border model for the table*/
+            border-collapse: collapse; 
+            /*Set border width / style / color (all three are optional)*/
+            border: 2px solid rgb(200,200,200);
+            /*Letter spacing*/
+            letter-spacing: 2px;
+            /*Rem is a new property of CSS3, which sets the relative size and is suitable for the latest version of browser*/
+            font-size: 0.8rem;
+        }
+        td, th {
+            border: 1px solid rgb(190,190,190);
+            /*10 up and down, 20 around*/
+            padding: 10px 20px;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <colgroup>
+            <col span="2">
+            <col style="background-color: #97DB9A;">
+            <col>
+            <col style="background-color: #97DB9A;">
+            <col style="background-color: #dcc48e;border:4px solid #c1437a">
+            <col style="width:42px">
+            <col>
+        </colgroup>
+        <tr>
+            <th>&nbsp;</th>
+            <th>Mon</th>
+            <th>Tues</th>
+            <th>Wed</th>
+            <th>Thurs</th>
+            <th>Fri</th>
+            <th>Sat</th>
+            <th>Sun</th>
+        </tr>
+        <tr>
+            <th>1st period</th>
+            <td>English</td>
+            <td></td>
+            <td></td>
+            <td>German</td>
+            <td>Dutch</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <th>2st period</th>
+            <td>English</td>
+            <td>English</td>
+            <td></td>
+            <td>German</td>
+            <td>Dutch</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <th>3st period</th>
+            <td></td>
+            <td>German</td>
+            <td></td>
+            <td>German</td>
+            <td>Dutch</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <th>4st period</th>
+            <td></td>
+            <td>English</td>
+            <td></td>
+            <td>English</td>
+            <td>Dutch</td>
+            <td></td>
+            <td></td>
+        </tr>
+
+    </table>
+
+    
+</body>
+</html>
